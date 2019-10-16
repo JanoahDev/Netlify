@@ -1,0 +1,20 @@
+{
+  "name": "Netlify",
+  "version": "1.1",
+  "description": "Testproject",
+  "main": "index.js",
+  "author": "Janoah",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": "https://github.com/JanoahDev/Netlify"
+}
